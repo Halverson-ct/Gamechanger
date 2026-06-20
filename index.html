@@ -2468,7 +2468,7 @@
         // ==================== SUPABASE CLOUD SYNC (синк телефон↔ПК + канал Claude-edit) ====================
         // ⚠️ ЕГОР: вставь свой anon-ключ ниже вместо PASTE_ANON_KEY_HERE (он публичный, безопасный).
         const SUPABASE_URL = 'https://udzqthuonbcfhkfykdjx.supabase.co';
-        const SUPABASE_ANON_KEY = 'PASTE_ANON_KEY_HERE';
+        const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVkenF0aHVvbmJjZmhrZnlrZGp4Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3ODE5NTM1NDcsImV4cCI6MjA5NzUyOTU0N30.QN1Z9cNvqJMGPOhy3g9HnB6vgsAkXh3wk9BBTfuKEi0';
         let supa = null, _supaPushTimer = null, _supaApplying = false;
         try {
             if (window.supabase && SUPABASE_ANON_KEY && SUPABASE_ANON_KEY.indexOf('PASTE') !== 0) {
